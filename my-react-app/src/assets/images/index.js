@@ -1,15 +1,21 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+
+import cloud from './cloud.png'
+import ecommerce from './ecommerce.png'
+import software from './software.png'
+import web from './web.png'
+import uiux from './uiux.png'
+import webser7 from './webser7.png'
+import mobile from './mobile.png'
+
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+   
+    cloud,
+    ecommerce,
+    software,
+    web,
+    uiux,
+    webser7, 
+    mobile   
+   
 }

@@ -1,88 +1,91 @@
-import { meta, shopify, tesla } from "../assets/images";
+import { cloud,
+    ecommerce,
+    software,
+    web,
+    uiux,
+    mobile
+ } from "../assets/images";
 import {
-    car,
-    contact,
-    css,
+     Css,
+    Expressjs,
+    Js,
+    Html,
+    MongoDB,
+    Nodejs,
+    Python,
+    Reactjs,
+    Sql,
+    Tailwindcss,
+    linkedin,
     cv,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin, 
-    nextjs,   
-    pricewise,
-    react,   
-    sass,
-    snapgram,
-    tailwindcss,
-    threads,
-    typescript
+    
+    contact,
+    Java,
+    Devops
 } from "../assets/icons";
 
-export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-   
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-  
-  
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-  
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+export const services = [
+  {
+    title: 'Custom Software Development',
+    image: software,
+    description:
+      "We build software that fits like a glove—tailored to your unique business needs.\nNo cookie-cutter code here, just solutions that stand the test of time.\nFrom concept to completion, we leave no stone unturned.\nLet your ideas take flight with scalable, secure, and smart systems.",
+  },
+  {
+    title: 'Full-Stack Web Development',
+    image: web,
+    description:
+      "We cover all bases—from pixel-perfect front-end to rock-solid back-end.\nYour website will be fast as lightning and smooth as silk.\nBuilt to handle traffic like a pro, even when the chips are down.\nLet’s turn your digital presence into a force to be reckoned with.",
+  },
+  {
+    title: 'Mobile App Development',
+    image: mobile,
+    description:
+      "Apps that put your brand in the palm of their hands—literally.\nWe craft experiences that keep users coming back for more.\nWhether native or hybrid, we hit the ground running.\nYour app will be sleek, swift, and ready to steal the show.",
+  },
+  {
+    title: 'UI/UX Design',
+    image: uiux,
+    description:
+      "Designs that speak louder than words and flow like water.\nWe read between the lines to understand your users’ needs.\nNo bells and whistles—just clean, intuitive, and delightful interfaces.\nLet’s make your product love at first sight.",
+  },
+  {
+    title: 'Cloud & DevOps',
+    image: cloud,
+    description:
+      "We take your infrastructure to the cloud—no strings attached.\nAutomate, optimize, and deploy at the drop of a hat.\nSay goodbye to downtime and hello to peace of mind.\nWith us, your tech stack runs like a well-oiled machine.",
+  },
+  {
+    title: 'E-commerce Platforms',
+    image: ecommerce,
+    description:
+      "Sell smarter, not harder—with platforms built to convert.\nFrom browsing to checkout, we smooth out every bump in the road.\nYour store will be open 24/7, rain or shine.\nLet’s turn clicks into customers and carts into cash.",
+  },
 ];
+
+export const techIcons = [
+  { name: 'HTML', src: Html },
+  { name: 'CSS', src: Css },
+  { name: 'JavaScript', src: Js },
+  { name: 'ReactJS', src: Reactjs },
+  { name: 'NodeJS', src: Nodejs },
+  { name: 'MongoDB', src: MongoDB },
+  { name: 'ExpressJS', src: Expressjs },
+  { name: 'TailwindCSS', src: Tailwindcss },
+  { name: 'SQL', src: Sql },
+  { name: 'DevOps', src: Devops },
+  { name: 'Java', src: Java },
+  { name: 'Python', src: Python },
+];
+
+
 
 export const experiences = [
    
     {
         title: "Frontend Developer",
         company_name: "Jambavan Software Solutions",
-        icon: tesla,
+        
         iconBg: "#fbc3bc",
         date: "Augest 2025 - Still now",
         points: [
@@ -95,7 +98,7 @@ export const experiences = [
     {
         title: "Programming Intern",
         company_name: "Jambavan Software Solutions",
-        icon: shopify,
+       
         iconBg: "#b7e4c7",
         date: "Feb 2024 - Jun 2025",
         points: [
@@ -108,7 +111,7 @@ export const experiences = [
     {
         title: "Worker-3 Employee",
         company_name: "Fairaway Enterprises Company Limited",
-        icon: meta,
+       
         iconBg: "#a2d2ff",
         date: "March 2021 - Jan 2024",
         points: [
@@ -128,7 +131,7 @@ export const socialLinks = [
     },
     {
         name: 'GitHub',
-        iconUrl: github,
+        
         link: 'https://github.com/mvvarasu04',
     },
     {
@@ -147,28 +150,28 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        
         theme: 'btn-back-red',
         name: 'Scientific Calculator',
         description: 'developed a scientific calculator that performs complex calculations, including trigonometric functions, logarithms, and exponentiation.',
         link: 'https://calculator-omega-lovat-44.vercel.app',
     },
     {
-        iconUrl: threads,
+        
         theme: 'btn-back-green',
         name: 'Sri Veera Crane Service',
         description: 'Created a web application for a crane service company, allowing users to book cranes and manage their services online.',
         link: 'https://github.com/mvvarasu04/CraneService',
     },
     {
-        iconUrl: car,
+        
         theme: 'btn-back-blue',
         name: 'QR Code Generator',
         description: 'Developed a QR code generator that allows users to create custom QR codes for various purposes, such as URLs, text, and contact information.',
         link: "https://qrcodegenerator-bay.vercel.app",
     },
     {
-        iconUrl: snapgram,
+        
         theme: 'btn-back-pink',
         name: 'BMI Calculator',
         description: 'BMI calculator, designed and developed for provides a quick and accurate way to assess body mass index using personalized height and weight inputs..',

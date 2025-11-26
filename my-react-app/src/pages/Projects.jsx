@@ -8,17 +8,15 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
+        Our{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
           Projects
         </span>
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I build intuitive user interfaces that speak louder than words,
-         turning design into delight. My code is clean as a whistle and crafted
-          to run like clockwork across browsers and devices. With every project,
-         I push the envelope—bringing modern frameworks to life with flair and finesse.
+        We build web development solutions that pack a punch—scalable, high-performance, and ready to grow with your business. Whether you're just getting your feet wet or already making waves, we’ll help you stay ahead of the curve.
+         Let’s craft a web experience that knocks your customers’ socks off and puts your brand on the map.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>

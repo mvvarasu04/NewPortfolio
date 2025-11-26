@@ -1,56 +1,38 @@
-import css from './css.svg'
-import cv from './cv.svg'
-import express from './express.svg'
-import git from './git.svg'
-import github from './github.svg'
-import html from './html.svg'
-import javascript from './javascript.svg'
-import nextjs from './nextjs.svg'
-import nodejs from './nodejs.svg'
-import react from './react.svg'
-import redux from './redux.svg'
-import sass from './sass.svg'
-import tailwindcss from './tailwindcss.svg'
-import typescript from './typescript.svg'
+
+import Css from './Css.svg'
+import Expressjs from './Expressjs.svg'
+import Js from './Js.svg'
+import Html from './Html.svg'
+import MongoDB from './mongoDB.svg'
+import Nodejs from './nodejs.svg'
+import Python from './Python.svg'
+import Reactjs from './Reactjs.svg'
+import Sql from './Sql.svg'
+import Tailwindcss from './Tailwindcss.svg'
 import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
+import cv from './cv.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
+import Java from './Java.svg'
+import Devops from './Devops.svg'
 
 
 export {
-    css,
-    cv,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    
-    
-    
-    nextjs,
-    nodejs,
-    react,
-    redux,
-    sass,
-    tailwindcss,
-    typescript,
+    Css,
+    Expressjs,
+    Js,
+    Html,
+    MongoDB,
+    Nodejs,
+    Python,
+    Reactjs,
+    Sql,
+    Tailwindcss,
+    Java,
+    Devops,
     linkedin,
-    twitter,
-    car,
-    estate,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
+    cv,
     arrow,
-    contact,
+    contact
     
 }
