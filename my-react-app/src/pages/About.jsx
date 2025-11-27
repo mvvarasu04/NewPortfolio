@@ -60,8 +60,7 @@ const About = () => {
           <VerticalTimeline>
             {services.map((service) => (
               <VerticalTimelineElement
-                key={service.company_name}
-                date={service.date}
+                key={service.name}
                 iconStyle={{ background: service.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>

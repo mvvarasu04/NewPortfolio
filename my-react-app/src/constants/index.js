@@ -17,8 +17,7 @@ import {
     Sql,
     Tailwindcss,
     linkedin,
-    cv,
-    
+    cv, 
     contact,
     Java,
     Devops
@@ -80,48 +79,6 @@ export const techIcons = [
 
 
 
-export const experiences = [
-   
-    {
-        title: "Frontend Developer",
-        company_name: "Jambavan Software Solutions",
-        
-        iconBg: "#fbc3bc",
-        date: "Augest 2025 - Still now",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Programming Intern",
-        company_name: "Jambavan Software Solutions",
-       
-        iconBg: "#b7e4c7",
-        date: "Feb 2024 - Jun 2025",
-        points: [
-            "Collaborated with cross-functional teams to build and refine responsive web pages that aligned with modern UI/UX standards.",
-            "Got hands-on experience with HTML, CSS, JavaScript, and React, learning the ropes of component-based architecture and performance optimization.",
-            "From debugging layout issues to implementing interactive features, I consistently rolled up my sleeves to tackle challenges head-on",
-            "It was a stepping stone that helped me sharpen my skills and hit the ground running in real-world development environments.",
-        ],
-    },
-    {
-        title: "Worker-3 Employee",
-        company_name: "Fairaway Enterprises Company Limited",
-       
-        iconBg: "#a2d2ff",
-        date: "March 2021 - Jan 2024",
-        points: [
-            "Gained solid experience in installing software, applying updates, and debugging runtime errors that can throw systems off track",
-            "Learned to keep my ear to the ground, identifying issues early and resolving them efficiently to maintain smooth operations",
-            "Alongside technical work, I have taken initiative in team settings, offering support, sharing knowledge, and stepping up when leadership was needed",
-            "Build a strong foundation, proving that I can hold my own and contribute meaningfully in both technical and collaborative environments.",
-        ],
-    },
-];
 
 export const socialLinks = [
     {
@@ -149,33 +106,100 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    {
-        
-        theme: 'btn-back-red',
-        name: 'Scientific Calculator',
-        description: 'developed a scientific calculator that performs complex calculations, including trigonometric functions, logarithms, and exponentiation.',
-        link: 'https://calculator-omega-lovat-44.vercel.app',
-    },
-    {
-        
-        theme: 'btn-back-green',
-        name: 'Sri Veera Crane Service',
-        description: 'Created a web application for a crane service company, allowing users to book cranes and manage their services online.',
-        link: 'https://github.com/mvvarasu04/CraneService',
-    },
-    {
-        
-        theme: 'btn-back-blue',
-        name: 'QR Code Generator',
-        description: 'Developed a QR code generator that allows users to create custom QR codes for various purposes, such as URLs, text, and contact information.',
-        link: "https://qrcodegenerator-bay.vercel.app",
-    },
-    {
-        
-        theme: 'btn-back-pink',
-        name: 'BMI Calculator',
-        description: 'BMI calculator, designed and developed for provides a quick and accurate way to assess body mass index using personalized height and weight inputs..',
-        link: ' https://bmicalculator-delta-nine.vercel.app ',
-    },
-    
+  {
+    theme: 'btn-back-pink',
+    name: 'Event Catering Company Website',
+    description: 'Developed a Full-Service Event Catering & Menu Site, primarily focusing on menu presentation, package clarity, and booking inquiry. Key features include high-quality food photography, a customizable menu builder tool, detailed service pricing (staffing, rentals), and a prominent Request A Quote form with event details capture.',
+    link: '#', // Replace with actual project link
+  },
+  {
+    theme: 'btn-back-red', // or another available color theme
+    name: 'Chit Fund Management System',
+    description: 'Developed a comprehensive web application for managing Chit Funds, focusing on financial transparency, member enrollment, and automated auction processes. Features include member registration and profile management, digital tracking of monthly contributions, an automated bidding and dividend calculation system, and generation of regulatory compliance reports.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-green',
+    name: 'Local Produce & Fruit Shop Grocer',
+    description: 'Designed a Local Produce Delivery & Grocer Site with a focus on freshness, inventory management, and local delivery logistics. Features include a daily/seasonal specials section, clear inventory status, local delivery zone checking, and easy category browsing for produce types (e.g., Exotic, Organic).',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-blue',
+    name: 'High-End Artisan Jewelry E-commerce',
+    description: 'Created a High-End Artisan Jewelry E-commerce platform emphasizing luxury branding, detail display, and trust/security. Features implemented are ultra high-resolution product photography with zoom, detailed material and sizing specifications, security seals/certifications, and a private appointment booking option for viewings.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-pink',
+    name: 'Boutique Fashion Retail E-commerce',
+    description: 'Built a Boutique Fashion E-commerce site focused on visual merchandising, trend relevance, and size/fit guidance. The site includes interactive lookbooks, a product recommendation engine (\'Complete the Look\'), model sizing and fit details on product pages, and clear information on the returns/exchange process.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-red',
+    name: 'Custom Home Furniture Showroom',
+    description: 'Developed a Custom & Ready-Made Home Furnishings E-commerce solution, highlighting lifestyle integration, dimensions, and delivery logistics. Features include a room visualizer/AR tool (if possible), clear product dimensions and material swatches, financing options display, and estimated delivery/assembly scheduling.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-green',
+    name: 'Computer Retail & Repair Service Site',
+    description: 'Designed a Local Retailer & Custom Build/Repair Service Site centered on technical specs, service booking, and trust. The application offers a PC builder tool or configuration options, dedicated pages for repair services with transparent pricing, a stock availability checker, and technician certification display.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-blue',
+    name: 'Motorcycle & Bicycle Showroom',
+    description: 'Created a Motorcycle/Bicycle Retail & Service Center website prioritizing performance specs, experiential content, and test ride booking. Key features are detailed specs sheets for models, a comparison tool, a visual accessories/parts catalog, and a prominent Book A Test Ride form.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-pink',
+    name: 'Car Dealership & Inventory Portal',
+    description: 'Built a New & Used Vehicle Dealership Site focused on inventory search, financing leads, and service scheduling. This includes robust inventory search filters (make, model, year, price), prominent financing calculator/application link, and an online service appointment scheduler.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-red',
+    name: 'Community Hospital/Clinic Portal',
+    description: 'Developed a Healthcare Institution & Patient Portal emphasizing authority, accessibility, and emergency info. Core features include doctor and department directories with specialization filters, online appointment requests, a patient portal login, and clear emergency contact/directions information.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-green',
+    name: 'Travel Agency & Tour Booking Site',
+    description: 'Designed an Agency & Tour Operator Booking Site with a focus on destination inspiration, package clarity, and secure booking. Features implemented are dynamic destination guides, a customizable itinerary builder, price breakdown transparency, and a secure payment gateway integration for bookings.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-blue',
+    name: 'Footwear Retail E-commerce',
+    description: 'Built a Shoe Retail E-commerce platform primarily focused on comfort, fit, and visual appeal. Features include 360-degree product views, detailed sizing charts and fit guides (e.g., width), filtering by activity (running/casual), and customer reviews focused on comfort/sizing.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-pink',
+    name: 'Specialty Camera Equipment Shop',
+    description: 'Developed a Specialty Photography Equipment Retailer site concentrating on technical comparison, expert advice, and educational content. Key features are a side-by-side comparison tool for cameras/lenses, an expert blog/review section, used gear trade-in program details, and rental equipment booking.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-red',
+    name: 'Hardware & DIY Supplies Center',
+    description: 'Created a Building Supplies & DIY Project Center website focused on product categorization, bulk orders, and project inspiration. The site includes clear categorization for complex inventory (lumber, tools, electrical), a bulk/contractor account signup portal, and integrated DIY project guides/videos.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-green',
+    name: 'Salon & Beauty Parlor Booking Site',
+    description: 'Designed a Salon & Spa Services Booking Site emphasizing visual results, staff expertise, and appointment booking. Features include stylist/technician portfolios, a detailed service menu with time/price estimates, an integrated online scheduling tool, and current promotion/loyalty program details.',
+    link: '#', 
+  },
+  {
+    theme: 'btn-back-blue',
+    name: 'Gift & Flower Delivery Shop',
+    description: 'Built a Local Gifting & Floral Arrangement Delivery site, focusing on emotional appeal, occasion filtering, and delivery tracking. Features include filtering by occasion (Birthday, Sympathy, Holiday), clear delivery cutoff times and fees, a customization request form, and high-quality floral arrangement photography.',
+    link: '#', 
+  }
 ];

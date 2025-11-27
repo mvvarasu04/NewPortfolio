@@ -28,11 +28,11 @@ export {
     Reactjs,
     Sql,
     Tailwindcss,
-    Java,
-    Devops,
     linkedin,
     cv,
     arrow,
-    contact
+    contact,
+    Java,
+    Devops,
     
 }
