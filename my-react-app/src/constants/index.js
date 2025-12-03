@@ -6,7 +6,7 @@ import { cloud,
     mobile
  } from "../assets/images";
 import {
-     Css,
+    Css,
     Expressjs,
     Js,
     Html,
@@ -16,11 +16,15 @@ import {
     Reactjs,
     Sql,
     Tailwindcss,
-    linkedin,
-    cv, 
-    contact,
     Java,
-    Devops
+    Devops,
+    call,
+    gmail,
+    instagram,
+    whatsapp,
+    facebook,
+    twitter,
+    
 } from "../assets/icons";
 
 export const services = [
@@ -75,33 +79,44 @@ export const techIcons = [
   { name: 'DevOps', src: Devops },
   { name: 'Java', src: Java },
   { name: 'Python', src: Python },
+  
 ];
 
 
 
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: 'tel:8681921236',
+     {
+        name: 'Call',
+        iconURL: call,
+        link: 'tel:8073514213',
+    },
+     {
+        name: 'GMail',
+        iconURL: gmail,
+        link: 'mailto:jambavansoftwaresystemspvtltd@gmail.com',
     },
     {
-        name: 'GitHub',
-        
-        link: 'https://github.com/mvvarasu04',
+        name: 'Facebook',
+        iconURL: facebook,
+        link: 'https://www.facebook.com/share/1EVG8RoweH/',
     },
     {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/veera-vanniya-arasu-m-18595a377',
+        name: 'Instagram',
+        iconURL:instagram,    
+        link: 'https://www.instagram.com/jsplimited?igsh=MzRlODBiNWFlZA==',
     },
     {
-        name: 'VeeraResume',
-        iconUrl: cv,
-        link: '/VeeraCV.pdf', 
-        download: true,      
-    }
+        name: 'Twitter',
+        iconURL:twitter,   
+        link: '',
+    },
+ {
+        name: 'Whatsapp',
+        iconURL:whatsapp,   
+        link: 'https://wa.link/qq9tdj', 
+         
+    },
 
 ];
 
@@ -110,10 +125,10 @@ export const projects = [
     theme: 'btn-back-pink',
     name: 'Event Catering Company Website',
     description: 'Developed a Full-Service Event Catering & Menu Site, primarily focusing on menu presentation, package clarity, and booking inquiry. Key features include high-quality food photography, a customizable menu builder tool, detailed service pricing (staffing, rentals), and a prominent Request A Quote form with event details capture.',
-    link: '#', // Replace with actual project link
+    link: 'http://vmmohancaterings.com', 
   },
   {
-    theme: 'btn-back-red', // or another available color theme
+    theme: 'btn-back-red',
     name: 'Chit Fund Management System',
     description: 'Developed a comprehensive web application for managing Chit Funds, focusing on financial transparency, member enrollment, and automated auction processes. Features include member registration and profile management, digital tracking of monthly contributions, an automated bidding and dividend calculation system, and generation of regulatory compliance reports.',
     link: '#', 
