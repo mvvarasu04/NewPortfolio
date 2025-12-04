@@ -67,16 +67,16 @@ export const services = [
 ];
 
 export const techIcons = [
-  { name: 'HTML', src: Html },
+  { name: 'Html', src: Html },
   { name: 'css', src: css },
-  { name: 'JavaScript', src: Js },
-  { name: 'ReactJS', src: Reactjs },
-  { name: 'NodeJS', src: Nodejs },
+  { name: 'Js', src: Js },
+  { name: 'Reactjs', src: Reactjs },
+  { name: 'Nodejs', src: Nodejs },
   { name: 'MongoDB', src: MongoDB },
-  { name: 'ExpressJS', src: Expressjs },
-  { name: 'TailwindCSS', src: Tailwindcss },
-  { name: 'SQL', src: Sql },
-  { name: 'DevOps', src: Devops },
+  { name: 'Expressjs', src: Expressjs },
+  { name: 'Tailwindcss', src: Tailwindcss },
+  { name: 'Sql', src: Sql },
+  { name: 'Devops', src: Devops },
   { name: 'Java', src: Java },
   { name: 'Python', src: Python },
   
