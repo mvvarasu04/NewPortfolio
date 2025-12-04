@@ -1,5 +1,5 @@
 
-import Css from './Css.svg'
+import css from './css.svg'
 import Expressjs from './Expressjs.svg'
 import Js from './Js.svg'
 import Html from './Html.svg'
@@ -22,7 +22,7 @@ import twitter from './twitter.svg'
 
 
 export {
-    Css,
+    css,
     Expressjs,
     Js,
     Html,   
