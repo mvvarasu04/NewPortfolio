@@ -3,7 +3,7 @@ import css from './css.svg'
 import expressjs from './expressjs.svg'
 import js from './js.svg'
 import html from './html.svg'
-import mongodb from './mongodb.svg'
+import Mongodb from './Mongodb.svg'
 import nodejs from './nodejs.svg'
 import python from './python.svg'
 import reactjs from './reactjs.svg'
@@ -26,7 +26,7 @@ export {
     expressjs,
     js,
     html,   
-    mongodb,
+    Mongodb,
     nodejs,
     python,
     reactjs,
