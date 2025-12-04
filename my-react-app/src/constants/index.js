@@ -6,7 +6,7 @@ import { cloud,
     mobile
  } from "../assets/images";
 import {
-    Css,
+    css,
     expressjs,
     js,
     html,
@@ -68,7 +68,7 @@ export const services = [
 
 export const techIcons = [
   { name: 'html', src: html },
-  { name: 'Css', src: Css },
+  { name: 'css', src: css },
   { name: 'js', src: js },
   { name: 'reactjs', src: reactjs },
   { name: 'nodejs', src: nodejs },
