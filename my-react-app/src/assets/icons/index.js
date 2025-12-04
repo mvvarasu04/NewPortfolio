@@ -1,5 +1,5 @@
 
-import css from './css.svg'
+import Css from './Css.svg'
 import expressjs from './expressjs.svg'
 import js from './js.svg'
 import html from './html.svg'
@@ -10,7 +10,7 @@ import reactjs from './reactjs.svg'
 import sql from './sql.svg'
 import tailwindcss from './tailwindcss.svg'
 import arrow from './arrow.svg'
-import java from './ java.svg'
+import java from './java.svg'
 import devops from './devops.svg'
 import call from './call.svg'
 import gmail from './gmail.svg'
@@ -22,7 +22,7 @@ import twitter from './twitter.svg'
 
 
 export {
-    css,
+    Css,
     expressjs,
     js,
     html,   
