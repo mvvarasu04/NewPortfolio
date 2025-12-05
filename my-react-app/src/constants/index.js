@@ -109,10 +109,10 @@ export const socialLinks = [
     {
         name: 'Twitter',
         iconURL:twitter,   
-        link: '',
+        link: '#',
     },
  {
-        name: 'Whatsapp',
+        name: 'Whatsapp', 
         iconURL:whatsapp,   
         link: 'https://wa.link/qq9tdj', 
          
