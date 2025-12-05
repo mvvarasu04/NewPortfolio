@@ -1,17 +1,17 @@
 
-import css from './css.svg'
-import expressjs from './expressjs.svg'
-import js from './js.svg'
-import html from './html.svg'
+import Css from './Css.svg'
+import Expressjs from './Expressjs.svg'
+import Js from './Js.svg'
+import Html from './Html.svg'
 import Mongodb from './Mongodb.svg'
-import nodejs from './nodejs.svg'
-import python from './python.svg'
-import reactjs from './reactjs.svg'
-import sql from './sql.svg'
-import tailwindcss from './tailwindcss.svg'
+import Nodejs from './Nodejs.svg'
+import Python from './Python.svg'
+import Reactjs from './Reactjs.svg'
+import Sql from './Sql.svg'
+import Tailwindcss from './Tailwindcss.svg'
 import arrow from './arrow.svg'
-import java from './java.svg'
-import devops from './devops.svg'
+import Java from './Java.svg'
+import Devops from './Devops.svg'
 import call from './call.svg'
 import gmail from './gmail.svg'
 import instagram from './instagram.svg'
@@ -22,19 +22,19 @@ import twitter from './twitter.svg'
 
 
 export {
-    css,
-    expressjs,
-    js,
-    html,   
+    Css,
+    Expressjs,
+    Js,
+    Html,   
     Mongodb,
-    nodejs,
-    python,
-    reactjs,
-    sql,
-    tailwindcss,
+    Nodejs,
+    Python,
+    Reactjs,
+    Sql,
+    Tailwindcss,
     arrow,
-    java,
-    devops,
+    Java,
+    Devops,
     call,
     gmail,
     linkedin,
